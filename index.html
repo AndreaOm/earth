@@ -2,90 +2,15 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Earth</title>
+    <title>ECharts</title>
 
-    <script src="//or4394j3r.bkt.clouddn.com/FnWe0-Jm9GvRHuKL_6_xfal4P2am.js"></script>
-    <script src="//or4394j3r.bkt.clouddn.com/Fj1EofU9qbPtaoipycuGV8dSIb94.js"></script>
+    <script src="echarts.min.js"></script>
+    <script src="echarts-gl.min.js"></script>
 
 </head>
 <body>
 
     <div id="canvas"></div>
-    <script>
-    	onResize();
-		function onResize(){ 
-		    
-		    var windowH=0;
-		    var windowW=0;
-
-		    if (window.innerHeight && window.innerWidth) {
-		        windowH = window.innerHeight;
-		    	windowW = window.innerWidth;
-		    }
-
-		    else if ((document.body) && (document.body.clientHeight) && (document.body.clientWidth)) {
-		        windowH = document.body.clientHeight;
-		    	windowW = document.body.clientWidth;
-		    }
-
-		    if (document.documentElement && document.documentElement.clientHeight && document.documentElement.clientWidth) {
-		        windowH = document.documentElement.clientHeight;
-		    	windowW = document.documentElement.clientWidth;
-		    }
-
-		    document.getElementById("canvas").style.height= windowH + "px";
-		    document.getElementById("canvas").style.width= windowW + "px";
-
-		}
-		window.onresize=onResize; 
-
-
-
-
-
-
-
-        canvas = document.getElementById('canvas');
-
-
-        
-        var myChart = echarts.init(canvas);
-
-        var option = {
-		    backgroundColor: '#fff',
-		    globe: {
-		        baseTexture: "http://or4394j3r.bkt.clouddn.com/Ftr8Zra45zFhIhTuGN7l1U4kmuFu.jpg",
-		        heightTexture: "http://or4394j3r.bkt.clouddn.com/Ftr8Zra45zFhIhTuGN7l1U4kmuFu.jpg",
-		        displacementScale: 0.04,
-		        shading: 'realistic',
-		        environment: 'http://or4394j3r.bkt.clouddn.com/lrttNMithhN11asCL8O4Uo3bsK_Q.jpg',
-		        realisticMaterial: {
-		            roughness: 0.9
-		        },
-		        postEffect: {
-		            enable: true
-		        },
-		        light: {
-		            main: {
-		                intensity: 4,
-		                shadow: true,
-		                shadowQuality: 'low'
-		            },
-		            ambientCubemap: {
-		                texture: 'http://or4394j3r.bkt.clouddn.com/FsvoN3x7Nu6mdFwiDbUvrY3AnBro.hdr',
-		                diffuseIntensity: 0.2
-		            }
-		        },
-		        viewControl: {
-				    // Location -- Beijing
-				    targetCoord: [116.46, 39.92],
-				    autoRotateDirection: 'ccw',
-				    distance: 200
-				}
-			}
-        };
-
-        myChart.setOption(option);
-    </script>
+    <script src="z0z.js"></script>
 </body>
 </html>
