@@ -50,7 +50,7 @@
 		        heightTexture: "earth.jpg",
 		        displacementScale: 0.04,
 		        shading: 'realistic',
-		        environment: 'universe.jpg',
+		        environment: 'http://or4394j3r.bkt.clouddn.com/lrttNMithhN11asCL8O4Uo3bsK_Q.jpg',
 		        realisticMaterial: {
 		            roughness: 0.9
 		        },
