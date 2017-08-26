@@ -5,4 +5,4 @@ Use Echarts GL -- Earth Demo
 [http://echarts.baidu.com/option-gl.html#globe](http://echarts.baidu.com/option-gl.html#globe)
 
 # Demo
-[Earth](http://blog.z0z.me/earth)
+[Earth](http://z0z.me/earth)
